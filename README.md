@@ -1,6 +1,6 @@
 # Hand gesture decoding using EMG - a geometric perspective
 
-The prevailing narrative in EMG-based hand gesture decoding emphasizes the necessity of massive pretrained models trained on data from hundreds of individuals. While these models can generalize across populations, they are resource-intensive and often overlook the intrinsic properties of EMG signals.
+The prevailing narrative in EMG-based hand gesture decoding emphasizes the necessity of massive pretrained models trained on data from hundreds of individuals. While these models show some tiny generalization across populations, they are resource-intensive and often need extensive finetuning.
 
 In contrast, we demonstrate that EMG signals exhibit a rich geometric structure, which can be harnessed to decode hand gestures for a given individual in an unsupervised manner using only the raw signals. Our approach leverages the characteristics of symmetric positive definite (SPD) covariance matrices derived from EMG data.
 
