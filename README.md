@@ -6,7 +6,7 @@ In contrast, we demonstrate that EMG signals exhibit a rich geometric structure,
 
 By operating on these SPD matrices within a Riemannian manifold framework, we respect the natural geometry of the data, enabling efficient and accurate decoding without the need for large-scale training datasets. This method challenges the need for scaling to massive, population-wide models, paving the way for lightweight, individualized solutions. 
 
-Refer to our [paper published in the Journal of Neural Engineering](https://iopscience.iop.org/article/10.1088/1741-2552/ad5107).
+Refer to our paper [Topology of surface electromyogram signals: hand gesture decoding on Riemannian manifolds](https://iopscience.iop.org/article/10.1088/1741-2552/ad5107).
 We also make the data available from `30` individual subjects. [Download our data](https://www.doi.org/10.17605/OSF.IO/ZCR43).
 
 You can use the scripts provided here to recreate results from the paper.
