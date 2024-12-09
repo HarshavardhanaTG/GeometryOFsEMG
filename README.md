@@ -1,5 +1,9 @@
-# sEMG based hand gesture decoding without massively pretrained models
+# Hand gesture decoding using EMG - a geometric perspective
 
-Do we need massively pretrained models to deocde discrete hand gestures? NO! 
-We show that, using appropriate representation of data, we can classify them in an unsupervised manner.
+The current narration around EMG based hand gesture decoding argues building for massive pretrained models trained using data from 100s of individuals.
+
+Countering this argument, we show that EMG signals evince a rich geometric structure, that enables us to decode hand gestures of a given individual in an unsupervised manner simply using the raw signals.
+
+We make use of symmetric positive definite covariance matrices, and operatae on a `Riemannian manifold` 
+
 
